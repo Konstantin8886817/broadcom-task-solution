@@ -1,0 +1,28 @@
+.btn{
+    display:block;
+    margin: 40px auto 0;
+    cursor: pointer;
+    width: 230px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid red;
+    font-weight: bold;
+    background: none;
+    background-color: rgba(228, 226, 226, 0.596);
+    outline: none;
+    transition: all .3s;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(236, 98, 98, 0.822);
+}
+
+.btn:active, .btn:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgba(236, 98, 98, 0.822);
+    outline: none;
+}

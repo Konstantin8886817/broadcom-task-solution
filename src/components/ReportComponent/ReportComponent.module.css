@@ -1,0 +1,32 @@
+.report{
+    border-bottom: 1px solid gray;
+    height: 53px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.top{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.top p{
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.bottom{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom p{
+    font-size: 12px;
+    margin: 0;
+    margin-right: 5px;
+}
